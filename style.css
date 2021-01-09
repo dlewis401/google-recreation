@@ -1,0 +1,53 @@
+body {
+    font-family: Arial;
+}
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+#gridcon1 .nav1{
+    display: grid;
+    grid-template-columns: 50px 50px 1fr 50px 50px 50px;
+    grid-template-rows: 50px;
+    grid-gap: 1em;
+    
+}
+
+#gridcon1 .nav1 a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    margin: 1em;
+}
+
+#gridcon1 .nav1 #button {
+    background-color: blue;
+    padding: 0.5em;
+    width: 4em;
+    color: white;
+    height: 1em;
+    text-align: center;
+}
+
+.googlesearch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10em;
+}
+
+input {
+    margin: 1em;
+    border-radius: 3em;
+    width: 35em;
+    height: 2em;
+    font-size: 1em;
+    
+
+}
+
+input:hover {
+    box-shadow: 14px 3px 47px -6px rgba(0,0,0,0.53);
+}
