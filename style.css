@@ -1,5 +1,6 @@
 body {
     font-family: Arial;
+    overflow: hidden;
 }
 
 html {
@@ -66,7 +67,7 @@ input:hover {
     left: 40em;
     bottom: 10em;
     margin: 0.5em;
-    
+
 }
 
 
@@ -75,3 +76,44 @@ input:hover {
     border: 0.1em solid black;
 }
 
+footer #otherbits {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #E6E6E6;
+    padding: 1em;
+    left: 0;
+    border: 0.1em solid gray;
+}
+
+footer #otherbits a, #ob2 a {
+    margin: 1em;
+    text-decoration: none;
+    color: gray;
+}
+
+footer #ob2 {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1em;
+    left: 90em;
+}
+
+footer #Country {
+    display: inline-block;
+    width: 100%;
+    background-color: #E6E6E6;
+    height: 3em;
+    border: 0.1em solid gray;
+    position: absolute;
+    left: 0;
+    bottom: 3em;
+    opacity: 0.6;
+}
+
+footer #Country p {
+    margin-left: 2em;
+}

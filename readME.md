@@ -7,3 +7,6 @@ PROGRESS LOG - 04:36 - 09/01/2021:
 - Added Google Search Bar (NOT WORKING)
 - Added Menu (NOT WORKING)
 - Google Logo above search
+
+PROGRESS LOG - 05:50 - 09/01/2021:
+- Added footer
